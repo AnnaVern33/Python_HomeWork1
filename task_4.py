@@ -2,15 +2,15 @@
 # возможных координат точек в этой четверти (x и y).
 
 
-A = int(input("Введите номер четверти: "))
+A = input("Введите номер четверти: ")
 
-if A == 1:
+if A == "1":
     print("x > 0 and y > 0")
-elif A == 2: 
+elif A == "2": 
     print("x < 0 and y > 0")
-elif A == 3: 
+elif A == "3": 
     print("x < 0 and y < 0")
-elif A == 4:
+elif A == "4":
     print("x > 0 and y < 0")
 else:
     print("Такого номера четверти не существует!")
